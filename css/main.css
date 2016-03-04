@@ -1,0 +1,151 @@
+.row {
+	margin-top: 2%;
+}
+.Back1 {
+	background-color: #0C060D;
+}
+.DivImg {
+	width: 100%;
+}
+.Logo {
+	width: 100%;
+	padding-bottom: 1%;
+}
+.MenuUl1 {
+	text-align: right;
+}
+.M1 {
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.AMenu {
+	color: white;
+}
+
+/*Arreglo de Section*/
+
+.Back2 {
+	background-color: #2D1530;
+}
+.BackRow1 {
+	width: 100%;
+	height: 400px;
+	background-image: url(../image/header-image.jpg);
+	background-position: center;
+	background-size: cover;
+}
+/*Panel 1*/
+.Panel1 {
+	width: 50%;
+	height: 250px;
+	background-color: #0C060D;
+	margin: auto;
+	margin-top: 80px;
+}
+.P1 {
+	font-size: 70px;
+	padding-top: 10%;
+}
+.P1Li {
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.TBlanco {
+	color: white;
+}
+.Mosaico1 {
+	width: 100%;
+}
+.BackMosaico {
+	width: 100%;
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+	padding-top: 210px;
+}
+.Uno {
+	background-image: url(../image/image7.jpg);
+}
+.Dos {
+	background-image: url(../image/image3.jpg);
+}
+.Tres {
+	background-image: url(../image/image2.jpg);
+}
+.TextMosaico {
+	background-color: #0C060D;
+	padding: 1% 2%;
+}
+.Video {
+	width: 100%;
+	margin-bottom: 3%;
+}
+iframe {
+	width: 100%;
+}
+
+/*Panel 2*/
+/*Fila Izquierda*/
+.Cuatro {
+	background-image: url(../image/image4.jpg);
+	height: 600px;
+}
+.AjusteBack4 {
+	margin-top: 181px;
+}
+.Orange {
+	color: orange;
+	font-family: 'Courgette';
+}
+.ImgPerfil {
+	width: 100%;
+}
+.CajaWell {
+	background-color: #0C060D !important;
+}
+.well {
+	border: none !important;
+}
+input {
+	border: none !important;
+}
+.form-control {
+	background-color: #2D1530  !important;
+}
+.BackColDerecha {
+	background-color: #0C060D;
+	margin-bottom: 5%;
+}
+i {
+	margin: 2%;
+}
+/*Fin de Section*/
+footer {
+	background-color: #0C060D;
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+@media screen and (max-width : 920px) {
+	.Panel1 {
+		width: 100%;
+		height: 250px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.Panel1 {
+		width: 80%;
+		margin-top: 25px;
+		height: 350px;
+	}
+	.NoHay {
+		display: none;
+	}
+	.Logo {
+
+	}
+}
+
