@@ -5,24 +5,53 @@
 	background-color: #0C060D;
 }
 .DivImg {
-	width: 100%;
+	width: 200px;
 }
 .Logo {
 	width: 100%;
 	padding-bottom: 1%;
 }
-.MenuUl1 {
-	text-align: right;
+/*Menu Responsive*/
+.right{
+	float: right;
 }
-.M1 {
+.bco{
+	color: white !important;
+	font-size: 20px !important;
+	font-family: 'Open Sans';
+	margin-top: 20px;
+}
+.trans{
+	background-color: transparent !important;
+	border: none !important;
+}
+.icon-bar{
+	background-color: white !important;
+}
+.pami{
+	margin-left: 2%;
+}
+.TextL {
+	font-size: 25px;
+	margin-top:10px;
+	color: #0B3861;
+}
+.Ul1 li {
 	display: inline-block;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 20px;
 }
-.AMenu {
-	color: white;
+.navbar-nav {
+    float: right !important;
+    margin: 0;
 }
-
+a:hover {
+	text-decoration: none !important;
+}
+.navbar-toggle {
+	background-color: rgba(53, 31, 29, 0.4) !important;
+	width: 40px;
+}
+/*Fin.De.Menu*/
 /*Arreglo de Section*/
 
 .Back2 {
@@ -148,4 +177,3 @@ footer {
 
 	}
 }
-
